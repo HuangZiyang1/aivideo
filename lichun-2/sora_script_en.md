@@ -2,13 +2,19 @@
 
 Objective: Generate a single 15-second shot including in-frame Simplified Chinese subtitles and a synchronized Mandarin voiceover, while keeping the visual style consistent with the Lichun version (vintage rice paper + ink-wash, classical ambience). If rendering text/audio becomes unstable, produce visuals only and add subtitles/VO in post using the provided SRT and CN script.
 
+Voice profile (unified across all clips)
+- Narrator: mature Mandarin male, baritone, warm and resonant, steady breath; reference tone: documentary narrator in “A Bite of China” (国风雄厚大叔男声，娓娓道来)。
+- Tempo & prosody: speaking rate ~0.92× of normal; calm cadence; slight downward inflection at phrase ends; avoid theatrical exaggeration.
+- Diction: Standard Putonghua (no regional accent), clear finals and retroflex; light smile tone on blessings.
+- Recording style: single close mic, dry (no reverb), center-panned; dynamics gentle compression; VO always on top of ambience.
+
 Global settings
 - Aspect ratio: 16:9; Duration: 15 seconds.
 - Style: classical Chinese ink-wash over vintage yellow rice paper; semi-realistic textures; dignified festive tone.
 - Light & wind: morning light entering from the right; wind flows right-to-left (low to medium); shadows react consistently.
 - Transitions: ink-ripple reveal from rice paper to scene, and retract back to rice paper.
 - Text rendering: in-frame Simplified Chinese subtitles per the timing below; font suggestion: clean sans-serif or Song-style Chinese font, white text with 70–80% opacity, 3px black stroke and soft shadow for legibility; position lower-third, max two lines; safe area margins.
-- Voiceover: Mandarin (Simplified Chinese), warm and confident; pace aligned with subtitle timings.
+- Voiceover: use the voice profile above; pace aligned with subtitle timings.
 - Audio cues: festive drums, controlled celebratory firecracker ambience (subtle), crowd murmur; prioritize clarity of VO.
 
 Timeline & directions (15s)

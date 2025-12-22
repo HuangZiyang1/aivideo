@@ -8,11 +8,18 @@
 - Sora英文脚本（带字幕与配音指令）：见 [lichun-2/sora_script_en.md](lichun-2/sora_script_en.md)
 - 中文旁白文本：见 [lichun-2/voiceover_cn.md](lichun-2/voiceover_cn.md)
 - 中文字幕 SRT：见 [lichun-2/subtitles_cn.srt](lichun-2/subtitles_cn.srt)
+- 统一配音音色规范：见 [lichun-2/voice_profile.md](lichun-2/voice_profile.md)
+
+### 咬春（10秒，字幕+配音）
+- Sora英文脚本：见 [lichun-2/yaochun/sora_script_en.md](lichun-2/yaochun/sora_script_en.md)
+- 中文旁白文本：见 [lichun-2/yaochun/voiceover_cn.md](lichun-2/yaochun/voiceover_cn.md)
+- 中文字幕 SRT：见 [lichun-2/yaochun/subtitles_cn.srt](lichun-2/yaochun/subtitles_cn.srt)
 
 ## 使用建议
 - 直接投喂 Sora 时，先尝试整段脚本（15s），如出现文字/音频不稳定，可改用后期：
   - 保持画面生成不含文字，后期用 `subtitles_cn.srt` 叠加。
   - 配音不稳定时，使用 `voiceover_cn.md` 文本做 TTS，再合成到时间线上。
+  - 若需统一音色，请严格遵守 [voice_profile.md](lichun-2/voice_profile.md) 中的音色与混音参数；Sora无法满足时，用 SSML 方案替代。
 - 镜头与物理逻辑与 `Lichun` 保持一致：
   - 光线：清晨右侧入射；风：右→左；阴影随风与光一致。
   - 转场：统一使用墨波纹从宣纸到场景，再回到宣纸。
