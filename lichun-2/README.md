@@ -1,8 +1,8 @@
-# 立春·鞭春（15秒，带字幕与配音）
+# 立春·鞭春（15秒）
 
-- 目标：测试 Sora 直接生成“片内中文字幕 + 中文配音”的能力。
+- 最终政策：Sora 仅输出无声、无字的成品画面；中文配音与中文字幕由剪映 AI 在后期生成与叠加。
 - 时长：15s；画幅 16:9；风格与参数延续 `Lichun` 版本（复古黄纸版 + 水墨浸染，古风写意，清晨右侧光，风向右→左）。
-- 文字与音频：本版本允许 Sora 渲染片内文字与中文配音；若渲染不稳定，改为后期叠加（保留本文件中的 SRT 与旁白文本）。
+- 文字与音频：投喂 Sora 时请忽略脚本中的文字与配音指令，仅生成画面；如需旁白与字幕，请参照下方文件在剪映中后期完成。
 
 ## 文件说明
 - Sora英文脚本（带字幕与配音指令）：见 [lichun-2/sora_script_en.md](lichun-2/sora_script_en.md)
@@ -16,10 +16,10 @@
 - 中文字幕 SRT：见 [lichun-2/yaochun/subtitles_cn.srt](lichun-2/yaochun/subtitles_cn.srt)
 
 ## 使用建议
-- 直接投喂 Sora 时，先尝试整段脚本（15s），如出现文字/音频不稳定，可改用后期：
-  - 保持画面生成不含文字，后期用 `subtitles_cn.srt` 叠加。
-  - 配音不稳定时，使用 `voiceover_cn.md` 文本做 TTS，再合成到时间线上。
-  - 若需统一音色，请严格遵守 [voice_profile.md](lichun-2/voice_profile.md) 中的音色与混音参数；Sora无法满足时，用 SSML 方案替代。
+- 生成画面：仅使用 `sora_script_en.md` 的镜头与物理逻辑说明，忽略文字/配音条目。
+- 旁白：在剪映中用 AI 配音（参考 [voice_profile.md](lichun-2/voice_profile.md)）或外部 TTS 生成，再导入时间线。
+- 字幕：在剪映中用 AI 字幕自动生成或导入 `subtitles_cn.srt` 校对与美化。
+- 全局规则：详见 [WORKFLOW_RULES.md](../WORKFLOW_RULES.md)。
 - 镜头与物理逻辑与 `Lichun` 保持一致：
   - 光线：清晨右侧入射；风：右→左；阴影随风与光一致。
   - 转场：统一使用墨波纹从宣纸到场景，再回到宣纸。

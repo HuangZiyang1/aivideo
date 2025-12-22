@@ -1,6 +1,6 @@
 # Sora Script (English) — Lichun-2 / Rite of Spring (15s, with Chinese subtitles & VO)
 
-Objective: Generate a single 15-second shot including in-frame Simplified Chinese subtitles and a synchronized Mandarin voiceover, while keeping the visual style consistent with the Lichun version (vintage rice paper + ink-wash, classical ambience). If rendering text/audio becomes unstable, produce visuals only and add subtitles/VO in post using the provided SRT and CN script.
+Objective (final policy): Generate visuals-only (silent, no on-screen text) for a single 15-second shot, while keeping the visual style consistent with the Lichun version (vintage rice paper + ink-wash, classical ambience). All narration and captions will be added in post using Jianying AI.
 
 Voice profile (unified across all clips)
 - Narrator: mature Mandarin male, baritone, warm and resonant, steady breath; reference tone: documentary narrator in “A Bite of China” (国风雄厚大叔男声，娓娓道来)。
@@ -13,8 +13,8 @@ Global settings
 - Style: classical Chinese ink-wash over vintage yellow rice paper; semi-realistic textures; dignified festive tone.
 - Light & wind: morning light entering from the right; wind flows right-to-left (low to medium); shadows react consistently.
 - Transitions: ink-ripple reveal from rice paper to scene, and retract back to rice paper.
-- Text rendering: in-frame Simplified Chinese subtitles per the timing below; font suggestion: clean sans-serif or Song-style Chinese font, white text with 70–80% opacity, 3px black stroke and soft shadow for legibility; position lower-third, max two lines; safe area margins.
-- Voiceover: use the voice profile above; pace aligned with subtitle timings.
+- Text rendering: IGNORE for generation (visuals-only). Any text intent below is for post-production reference.
+- Voiceover: IGNORE for generation (visuals-only). Use the voice profile above in post when synthesizing VO.
 - Audio cues: festive drums, controlled celebratory firecracker ambience (subtle), crowd murmur; prioritize clarity of VO.
 
 Timeline & directions (15s)
