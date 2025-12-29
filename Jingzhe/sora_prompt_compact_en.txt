@@ -1,0 +1,29 @@
+Single-block prompt (copy-paste to Sora)
+
+Aspect ratio 16:9. Duration 24 seconds. Visuals-only: no sound, no on-screen text. Style: vintage yellow rice paper + ink-wash aesthetics; semi-realistic details. Lighting: dawn light entering from the right; wind flows right-to-left (low to medium); shadows react consistently. Transitions: use ink-ripple reveal/retract between rice paper and scene; finish on rice paper.
+
+Custom A — 12s (Spring tilling & pest control)
+- 0.0–0.6s: Start on vintage rice paper, slight push-in.
+- 0.6–4.5s: Reveal farmland under fast-moving cloud shadows; distant rolling clouds imply first thunder visually; dry grasses stir; under a leaf, a tiny overwintering insect silhouette shifts; willow buds visible; furrows hold reflective puddles with subtle concentric ripples. Camera: slow push-in with slight upward tilt, 40mm→55mm; stable.
+- 4.5–8.5s: Mid shot: a farmer hoes winter-wheat rows; soil soft and moist. Include a brief close-up (~0.8s) of the hoe entering soil; small clods crumble; faint breath vapor in cool air. Camera: slow pan left with micro dolly-in; return to mid; hands/tool motion natural.
+- 8.5–12.0s: Light pest prevention on ridges: sprinkle white lime powder along furrow edges; simple physical traps near roots; a tiny insect silhouette avoids powder and exits frame. Camera: gentle pull-back to mid-wide; stable. Physics: powder puffs small; moisture keeps powder near surface.
+- 11.6–12.0s: Retract via ink-ripple to rice paper.
+
+Custom B — 12s (Mugwort fumigation & symbolic “Da Xiaoren” ritual)
+- 12.0–12.6s: Hold on rice paper; slight push-in.
+- 12.6–16.5s: Interior angle: mugwort (Artemisia/mugwort) burning; smoke curls toward corners; threshold lightly dusted with lime; window lattice casts moving shadows. Camera: slow push-in; micro pan following smoke; stable. Physics: smoke rises then drifts right-to-left through a slight draft; ember glow subtle; no heavy soot.
+- 16.5–20.5s: At a small bridge or shrine table: a paper figure is symbolically tapped (gentle), focus on hands and paper, not identities; offerings and incense present; mood orderly and respectful. Camera: close-up of tapping motion, then return to mid; stable. No damage depiction.
+- 20.5–24.0s: Exterior early-spring landscape; clouds thinning; field rows and a small creek; retract via ink-ripple to rice paper by 23.2–24.0s; hold to end. Camera: slight pull-back to neutral; stable.
+
+Physics consistency: right-side light; wind right-to-left; rain/smoke/leaf motion obey wind; shadows consistent; water surfaces calm to mild ripples only.
+
+If generation length constraints occur, generate two separate 12-second clips (A then B) using the corresponding sections above; keep rice paper at ends for clean stitching.
+
+---
+Two-block prompts (use separately if needed)
+
+Block A — 12s, visuals-only
+“16:9; duration 12s; visuals-only (no sound, no text). Dawn right-side light; wind right-to-left. Start on rice paper with slight push-in, then reveal farmland under fast-moving cloud shadows; distant rolling clouds imply first thunder visually; grasses stir; an overwintering insect silhouette shifts under a leaf; willow buds; furrows hold reflective puddles with subtle ripples. Camera slow push-in with slight upward tilt, 40mm→55mm; stable. Then mid shot of a farmer hoeing thawed winter-wheat rows; include brief close-up of the hoe entering soft soil; small clods crumble; faint breath vapor; pan left with micro dolly-in; return to mid; natural hand/tool motion. Finish with light pest prevention on ridges: sprinkle white lime powder; simple traps near roots; a small insect silhouette avoids powder and exits frame. Gentle pull-back to mid-wide; retract to rice paper around 11.6–12.0s.”
+
+Block B — 12s, visuals-only
+“16:9; duration 12s; visuals-only (no sound, no text). Hold on rice paper then reveal a home interior: mugwort burning; smoke curls toward room corners; threshold lightly dusted with lime; window lattice shadows move. Camera slow push-in; micro pan following smoke; stable; smoke drifts right-to-left with a slight draft; subtle ember glow. Next, at a small bridge or shrine table: symbolic gentle tapping of a paper figure; focus on hands and paper; offerings and incense; mood orderly and respectful; close-up then mid shot; no damage depiction. End on exterior early-spring landscape; clouds thinning; field rows and a small creek; retract to rice paper by 23.2–24.0s equivalent; hold to end.”
