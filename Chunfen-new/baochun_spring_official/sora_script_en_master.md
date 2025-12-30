@@ -7,7 +7,7 @@ Global settings
 - Style: vintage, semi-realistic; muted earthy palette; gentle haze; no rice-paper backdrop requirement.
 - Environment: early-spring street/courtyard; period-correct garments/props; avoid modern signage/plastics/glossy paint.
 - Camera: tripod-stable; exposure locked; fixed focus per shot; no zoom; no auto-reframe; hard cuts only.
-- Light & wind: morning sidelight from right; wind right→left (low→medium); shadows coherent to left; banners/ribbons respond proportionally to wind amplitude.
+- Light & wind: morning sidelight from right; wind right→left (0.3–0.5 m/s); shadows coherent to left; banners/ribbons respond proportionally to wind amplitude.
 - Safety: no entrance/exit effects; no focus hunting; no exposure pulsing; avoid stabilization warps.
 - Text & VO: IGNORE during generation (visuals-only). Timing cues are for post.
 
